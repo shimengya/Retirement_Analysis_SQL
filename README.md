@@ -5,6 +5,7 @@ At present, big data is getting more and more popular and it requires us to lear
 
 ## The purpose of the new analysis is well defined. 
 AS SQL is powerful data analysis tool/database. This challange is utilize the SQL to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. To better understand how SQL works, it's curcial to understand the "relationship" among different tables and we use primary key and foreign key to build up the links. As the picture shows below, all of these primary key and foreign are signigiciantly important bridge between each two tables. Also, as we learnt before, we could use join to merge different tables per the key.
+
 ![QuickDBD-export](QuickDBD-export.png)
 
 ## Results: 
