@@ -15,10 +15,10 @@
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
 
 -
-
 [retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
--
 
+-
 [mentorship_eligibilty](Pewlett-Hackard-Analysis/mentorship_eligibilty.csv)
+
 
 ## Summary - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
