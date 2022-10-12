@@ -5,11 +5,11 @@ At present, big data is getting more and more popular and it requires us to lear
 
 ## The purpose of the new analysis is well defined. 
 AS SQL is powerful data analysis tool/database. This challange is utilize the SQL to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. 
-![VBA_Challenge_2017](/VBA_Challenge_2017.png)
+![QuickDBD-export](Pewlett-Hackard-Analysis/QuickDBD-export.png)
 
 ## Results: 
 - 
-[QuickDBD-export](Pewlett-Hackard-Analysis/QuickDBD-export.png)
+[retirement_titles](Pewlett-Hackard-Analysis/retirement_titles.csv)
 
 - 
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
