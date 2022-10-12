@@ -5,7 +5,7 @@ At present, big data is getting more and more popular and it requires us to lear
 
 ## The purpose of the new analysis is well defined. 
 AS SQL is powerful data analysis tool/database. This challange is utilize the SQL to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. 
-![QuickDBD-export](Pewlett-Hackard-Analysis/QuickDBD-export.png)
+![QuickDBD-export](QuickDBD-export.png)
 
 ## Results: 
 - 
