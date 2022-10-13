@@ -30,10 +30,23 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 
 
 ## Summary - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. 
-- There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
+
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+    - If eligible employees were to retire at the age of 65, roughly 22,600 will be leaving Pewlett Hachard each year.
+
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+    - The number of mentorship eligible participants is severely lacking to replace the outgoing employees.
+    - Suggest that birth date range be widened to increase number of mentorship eligible employees.
+
+### Two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+- Query to calculate the percentage for retiring titles and percentage for eligible mentorship.
+    - There are around 35% Senior Engineer and 34% Senior Staff out of the total title meet the requirements for retirement.
+    - There are around 35% Senior Engineer and 34% Senior Staff out of the total title for the eligible mentorship.
 
 [retiring_titles_percentage](Pewlett-Hackard-Analysis/retiring_titles_percentage.csv)
 
- - There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
-
 [mentorship_eligibilty_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_percentage.csv)
+
+- Query to calculate the gender percentage for eligible mentorship. It is interesting that there are more male than female met the requirements for mentorship.
+
+[mentorship_eligibilty_gender_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_gender_percentage.csv)
