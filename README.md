@@ -50,6 +50,6 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 [mentorship_eligibilty_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_percentage.csv)
 
 - Query to calculate the gender percentage for eligible mentorship. It is interesting that there are more male than female met the requirements for mentorship.
-- There are around 58% male and 41% female eligible for mentorship.
+    - There are around 58% male and 41% female eligible for mentorship.
 
 [mentorship_eligibilty_gender_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_gender_percentage.csv)
