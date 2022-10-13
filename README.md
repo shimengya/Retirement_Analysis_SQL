@@ -12,13 +12,20 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 - Filter all employees who were born between 1952 and 1955.
 [retirement_titles](Pewlett-Hackard-Analysis/retirement_titles.csv)
 
-- Once we meet the age requirement, we need to select all current employees who is eligible for retirement.
+- Once we meet the age requirement, we need to select the last position held for all current employees who is eligible for retirement.
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
 
-- Using count function and group by function, we got the table as below which shows the titles for retiring employees. Per the table, there are around 25916 Senior Engineer and 24926 Senior Staff out of the total title. It's understandable that most of the employees were promoted as senior before retirement.
+- Analysis:
+    - There are 72,458 employees meet the mentorship participation requirements.
+    - Using count function and group by function, we got the table as below which shows the titles for retiring employees. Per the table, there are around 25,916 Senior Engineer and 24,926 Senior Staff out of the total title. It's understandable that most of the employees were promoted as senior before retirement.
 [retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
 
 ### The Employees Eligible for the Mentorship Program
+- Filtered employees with birth date between 1965/1/1 and 1965/12/31 who is currently hiring
+- Analysis:
+    - There are 1,549 employees meet the mentorship participation requirements.
+    - Per the table, there are around 528 Senior Engineer and 577 Staff out of the total title. 
+
 [mentorship_eligibilty](Pewlett-Hackard-Analysis/mentorship_eligibilty.csv)
 
 
