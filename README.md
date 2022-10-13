@@ -43,12 +43,13 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 ### Two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 - Query to calculate the percentage for retiring titles and percentage for eligible mentorship.
     - There are around 35% Senior Engineer and 34% Senior Staff out of the total title meet the requirements for retirement.
-    - There are around 35% Senior Engineer and 34% Senior Staff out of the total title for the eligible mentorship.
+    - There are around 34% Senior Engineer and 37% Staff out of the total title for the eligible mentorship.
 
 [retiring_titles_percentage](Pewlett-Hackard-Analysis/retiring_titles_percentage.csv)
 
 [mentorship_eligibilty_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_percentage.csv)
 
 - Query to calculate the gender percentage for eligible mentorship. It is interesting that there are more male than female met the requirements for mentorship.
+- There are around 58% male and 41% female eligible for mentorship.
 
 [mentorship_eligibilty_gender_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_gender_percentage.csv)
