@@ -16,12 +16,12 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
 
 - Analysis:
-    - There are 72,458 employees meet the mentorship participation requirements.
+    - There are 72,458 employees meet the retirement requirements.
     - Using count function and group by function, we got the table as below which shows the titles for retiring employees. Per the table, there are around 25,916 Senior Engineer and 24,926 Senior Staff out of the total title. It's understandable that most of the employees were promoted as senior before retirement.
 [retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
 
 ### The Employees Eligible for the Mentorship Program
-- Filtered employees with birth date between 1965/1/1 and 1965/12/31 who is currently hiring
+- Filtered employees with birth date between 1965/1/1 and 1965/12/31 who is currently hiring.
 - Analysis:
     - There are 1,549 employees meet the mentorship participation requirements.
     - Per the table, there are around 528 Senior Engineer and 577 Staff out of the total title. 
@@ -32,11 +32,12 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 ## Summary - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. 
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-    - If eligible employees were to retire at the age of 65, roughly 22,600 will be leaving Pewlett Hachard each year.
+    - Per the analysis above, if eligible employees got retired, more than 72,000 employees would leaving Pewlett Hachard which is a significate large amount.
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-    - The number of mentorship eligible participants is severely lacking to replace the outgoing employees.
-    - Suggest that birth date range be widened to increase number of mentorship eligible employees.
+    - The firm could widen the range of birth date to increase mentorship eligible employees. It would drmatically help Pewlett Hackard to better manage its retiring employees.
+    - However, to build the reputation, Pewlett Hackard can't increase huge amount of mentorship eligible employees.
+    - The number of mentorship eligible participants is drmatically less than retiring employees.
 
 ### Two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 - Query to calculate the percentage for retiring titles and percentage for eligible mentorship.
