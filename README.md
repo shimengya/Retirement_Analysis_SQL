@@ -8,18 +8,31 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 
 ![QuickDBD-export](QuickDBD-export.png)
 
-## Results: 
-- 
+### The Number of Retiring Employees by Title 
+- Filter all employees who were born between 1952 and 1955.
 [retirement_titles](Pewlett-Hackard-Analysis/retirement_titles.csv)
 
-- 
+- Once we meet the age requirement, we need to select all current employees who is eligible for retirement.
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
 
--
-csvtomd(Pewlett-Hackard-Analysis/retiring_titles.csv)
+- Using count function and group by function, we got the table as below which shows the titles for retiring employees. Per the table, there are around 25916 Senior Engineer and 24926 Senior Staff out of the total title. It's understandable that most of the employees were promoted as senior before retirement.
+[retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
 
--
+### The Employees Eligible for the Mentorship Program
 [mentorship_eligibilty](Pewlett-Hackard-Analysis/mentorship_eligibilty.csv)
 
 
 ## Summary - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. 
+- There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
+  - 
+  - QUERIES:
+    SELECT title, retiring_titles.count,
+    ROUND(retiring_titles.count*100/(select sum(retiring_titles.count)), 2) as "percentage_of_total_title"
+    From retiring_titles 
+ - There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
+  -
+  - QUERIES:
+    select mentorship_eligibilty_count.title, mentorship_eligibilty_count.count,
+    round(mentorship_eligibilty_count.count*100/select sum(mentorship_eligibilty_count.count) as "total_title_memtorship",2) as "percentage_of_total_title"
+    INTO mentorship_eligibilty_percentage
+    from mentorship_eligibilty_count
