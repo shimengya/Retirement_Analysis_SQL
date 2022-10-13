@@ -31,15 +31,9 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 
 ## Summary - The summary addresses the two questions and contains two additional queries or tables that may provide more insight. 
 - There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
-  - 
-  - QUERIES:
-    SELECT title, retiring_titles.count,
-    ROUND(retiring_titles.count*100/(select sum(retiring_titles.count)), 2) as "percentage_of_total_title"
-    From retiring_titles 
+
+[retiring_titles_percentage](Pewlett-Hackard-Analysis/retiring_titles_percentage.csv)
+
  - There are around 35% Senior Engineer and 34% Senior Staff out of the total title. 
-  -
-  - QUERIES:
-    select mentorship_eligibilty_count.title, mentorship_eligibilty_count.count,
-    round(mentorship_eligibilty_count.count*100/select sum(mentorship_eligibilty_count.count) as "total_title_memtorship",2) as "percentage_of_total_title"
-    INTO mentorship_eligibilty_percentage
-    from mentorship_eligibilty_count
+
+[mentorship_eligibilty_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_percentage.csv)
