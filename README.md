@@ -19,6 +19,17 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
     - There are 72,458 employees meet the retirement requirements.
     - Using count function and group by function, we got the table as below which shows the titles for retiring employees. Per the table, there are around 25,916 Senior Engineer and 24,926 Senior Staff out of the total title. It's understandable that most of the employees were promoted as senior before retirement.
 
+|count|title             |
+|-----|------------------|
+|25916|Senior Engineer   |
+|24926|Senior Staff      |
+|9285 |Engineer          |
+|7636 |Staff             |
+|3603 |Technique Leader  |
+|1090 |Assistant Engineer|
+|2    |Manager           |
+
+
 [retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
 
 ### The Employees Eligible for the Mentorship Program
