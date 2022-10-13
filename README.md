@@ -55,12 +55,38 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 - Query to calculate the percentage for retiring titles and percentage for eligible mentorship.
     - There are around 35% Senior Engineer and 34% Senior Staff out of the total title meet the requirements for retirement.
     - There are around 34% Senior Engineer and 37% Staff out of the total title for the eligible mentorship.
+    
+|title|count             |percentage_of_total_title                                                                                                                                                                 |
+|-----|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Senior Engineer|25916             |35.00                                                                                                                                                                                     |
+|Senior Staff|24926             |34.00                                                                                                                                                                                     |
+|Engineer|9285              |12.00                                                                                                                                                                                     |
+|Staff|7636              |10.00                                                                                                                                                                                     |
+|Technique Leader|3603              |4.00                                                                                                                                                                                      |
+|Assistant Engineer|1090              |1.00                                                                                                                                                                                      |
+|Manager|2                 |0.00       
+
 
 [retiring_titles_percentage](Pewlett-Hackard-Analysis/retiring_titles_percentage.csv)
+
+|title|count             |percentage_of_total_title                                                                                                                                                                 |
+|-----|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Staff|577               |37.00                                                                                                                                                                                     |
+|Senior Engineer|528               |34.00                                                                                                                                                                                     |
+|Engineer|191               |12.00                                                                                                                                                                                     |
+|Senior Staff|147               |9.00                                                                                                                                                                                      |
+|Technique Leader|77                |4.00                                                                                                                                                                                      |
+|Assistant Engineer|29                |1.00         
+
 
 [mentorship_eligibilty_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_percentage.csv)
 
 - Query to calculate the gender percentage for eligible mentorship. It is interesting that there are more male than female met the requirements for mentorship.
     - There are around 58% male and 41% female eligible for mentorship.
+
+|gender|count|percentage_of_gender_mentorship|
+|------|-----|-------------------------------|
+|M     |906  |58.00                          |
+|F     |643  |41.00                          |
 
 [mentorship_eligibilty_gender_percentage](Pewlett-Hackard-Analysis/mentorship_eligibilty_gender_percentage.csv)
