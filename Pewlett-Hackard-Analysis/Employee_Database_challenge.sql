@@ -53,18 +53,48 @@ FROM employees as e
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 	 AND (de.to_date = '9999-01-01');
 
-select*from mentorship_eligibilty
-ORDER BY emp_no
 
+-- queries for the percentage calculation for titles/mentorship
+select sum(m.count) as "total_title_memtorship"
+from mentorship_eligibilty_count as m
+-- 72458
+-- 1549
 
+SELECT title, retiring_titles.count,
+ROUND(retiring_titles.count*100/72458, 2) as "percentage_of_total_title"
+INTO retiring_titles_percentage
+From retiring_titles 
+						  
+select mentorship_eligibilty_count.title, mentorship_eligibilty_count.count,
+round(mentorship_eligibilty_count.count*100/1549,2) as "percentage_of_total_title"
+INTO mentorship_eligibilty_percentage
+from mentorship_eligibilty_count
 
+-- queries for the mentorship gender
+SELECT DISTINCT ON (e.emp_no) e.emp_no, 
+		e.gender,
+		ti.title
+INTO mentorship_eligibilty_gender
+FROM employees as e
+	INNER JOIN titles as ti
+		ON (e.emp_no = ti.emp_no)
+    INNER JOIN dept_emp AS de
+        ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+	 AND (de.to_date = '9999-01-01');
 
+select count(gender), gender
+-- INTO mentorship_eligibilty_gender_count
+from mentorship_eligibilty_gender
+GROUP BY gender
 
+-- select*from mentorship_eligibilty_gender_count
 
-
-
-
-
-
-
-
+select sum(m.count) as "total_title_memtorship"
+from mentorship_eligibilty_gender_count as m
+-- 1549
+						  
+select mentorship_eligibilty_gender_count.gender, mentorship_eligibilty_gender_count.count,
+round(mentorship_eligibilty_gender_count.count*100/1549,2) as "percentage_of_gender_mentorship"
+INTO mentorship_eligibilty_gender_percentage
+from mentorship_eligibilty_gender_count
