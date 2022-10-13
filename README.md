@@ -16,7 +16,7 @@ AS SQL is powerful data analysis tool/database. This challange is utilize the SQ
 [unique_titles](Pewlett-Hackard-Analysis/unique_titles.csv)
 
 -
-[retiring_titles](Pewlett-Hackard-Analysis/retiring_titles.csv)
+Pewlett-Hackard-Analysis/retiring_titles.csv
 
 -
 [mentorship_eligibilty](Pewlett-Hackard-Analysis/mentorship_eligibilty.csv)
